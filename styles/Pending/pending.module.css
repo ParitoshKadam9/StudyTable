@@ -1,0 +1,145 @@
+.content{
+    color: white;
+}
+
+
+.list {
+    color: white;
+    font-size: 25px;
+    margin: 25px;
+    margin-top: 70px;
+}
+.striker{
+    transition: 2s;
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.input{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    width: max-content;
+    color: white;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+   margin-top: 10vh;
+   
+  
+    
+}
+.coloumn{
+    display: flex;
+    flex-direction: row;
+}
+.done{
+    text-decoration: line-through;
+    color: white;
+    font-size: 10px;
+}
+.submit{
+    border: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.item{
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 300px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-bottom:20px ;
+    transition: 0.2s;
+}
+.done{
+     text-decoration: line-through;
+    color: black;
+    font-size: 25px;
+    margin-left: 100px;
+    width: fit-content;
+    height: fit-content;
+       margin-top: 10vh;
+    
+    background-color: white;
+    border-radius: 10px;
+    
+   
+    
+}
+.striker:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+    
+}
+.item:hover{
+    background-color: white;
+    color: black;
+    cursor:context-menu;
+    border-radius: 4px;
+
+}
+.delete{
+    width: auto;
+    height: fit-content;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+.delete:hover{
+    background-color: white;
+    color: black;
+}
+.bigger{
+    display: flex;
+    flex-direction: row;
+}
+.strikeelement{
+    display: flex;
+    margin: 30px;
+    
+}
+.reverse{
+    text-decoration: none;
+    background-color: black;
+    width:fit-content;
+    height: fit-content;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    margin-right: 20px;
+    border-radius: 4px;
+    
+    transition: 0.1s;
+}
+.reverse:hover{
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
