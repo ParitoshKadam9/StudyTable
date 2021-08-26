@@ -20,6 +20,12 @@ export default function RecLect() {
         section: "L2",
         link: "https://drive.google.com/file/d/1mPO0drzJlYmdWeS_UVlSar5F0sA7X7AI/view?usp=sharing",
       },
+      {
+        name: "Thermodynamics",
+        id: "Deepak Nabapure",
+        section: "P3",
+        link: "https://classroom.google.com/u/0/c/MTMwOTI5MTg4NzYz",
+      },
     ];
 
     return (
