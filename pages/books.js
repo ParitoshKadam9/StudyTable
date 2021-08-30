@@ -1,4 +1,3 @@
-import card from "../styles/GLobalcard/carddata.module.css"
 import Card from "../components/content/cards";
 
 export default function Books() {
