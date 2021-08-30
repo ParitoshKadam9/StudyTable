@@ -6,7 +6,7 @@ export default function Card({...data}) {
       <>
         <Link href={data.link}>
           <a target="_blank">
-          <div className={card.container}>
+          <div className={card.container} >
             <div className={card.head}>{data.name}</div>
             <div className={card.code}>{data.id}</div>
             <div className={card.timing}>{data.section}</div>

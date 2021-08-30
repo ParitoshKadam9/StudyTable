@@ -80,7 +80,7 @@ export default function Pending() {
               {list.length >= 1 ? (
                 list.map((listitem, idx) => {
                   return (
-                    <div className={pending.coloumn}>
+                    <div className={pending.coloumn} key={idx}>
                       <div
                         className={pending.striker}
                         onClick={(e) => {
