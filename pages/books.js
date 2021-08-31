@@ -19,7 +19,7 @@ export default function Books() {
         name: "Mech of Solids",
         id: "ME F211",
         key: 3,
-        link: "https://drive.google.com/file/d/1Yio8qjLYD0TzsGyWDxLKaEZ1dvv2nYsV/view",
+        link: "file:///C:/Users/priya/Downloads/ROBERT_1.PDF",
       },
       {
         name: "Mat sci and eng",

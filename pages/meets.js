@@ -30,7 +30,7 @@ export default function Meets() {
         c2: "",
         l2: "",
         c3: "Mech of Solids T2",
-        l3: "",
+        l3: "https://meet.google.com/ccd-itft-bpd",
         c4: "POE T2",
         l4: "",
         c5: "Fluid Mech T2",
