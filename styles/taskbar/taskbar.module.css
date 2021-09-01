@@ -41,3 +41,25 @@
     background: white;
     z-index: 100;
 }
+@media screen and (max-width: 1200px) {
+    .header{
+        font-size: 40px;
+    }
+    .buttons{
+        font-size: 17px ;
+    }
+    .button{
+        margin-bottom: 2.5vh;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header{
+        font-size: 30px;
+    }
+    .buttons{
+        font-size: 13px ;
+    }
+    .button{
+        margin-bottom: 2vh;
+    }
+}

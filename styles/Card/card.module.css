@@ -10,6 +10,7 @@
     justify-content: center;
     margin: 25px;
     transition: 0.2s;
+    text-align: center;
    
    
 }
@@ -26,4 +27,41 @@
 .container:hover{
     opacity: 0.6;
     cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    .head{
+        font-size: 30px;
+    }
+    .code{
+        font-size: 20px;
+    }
+      .timing{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+
+@media screen and (max-width: 900px) {
+    .container{
+       width: 22vw;
+       margin: 15px;
+
+    }
+        .timing{
+        font-size: 18px;
+    }
+}
+    
+}
+@media screen and (max-width: 750px) {
+     .head{
+        font-size: 25px;
+    }
+    .code{
+        font-size: 15px;
+    }
+    .timing{
+        font-size: 14px;
+    }
+    
 }

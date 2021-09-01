@@ -4,7 +4,7 @@ export default function RecLect() {
     const reclectures = [
       {
         key:1,
-        name: "Material Sci and Eng",
+        name: "Mat Sci and Eng",
         id: "Sujit R",
         section: "L1/T2/P3",
         link: "https://classroom.google.com/u/0/w/MzgzNDY3Nzg1Nzc1/tc/Mzg0MDA3MDA2NTA2",

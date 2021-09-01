@@ -41,7 +41,7 @@ min-height: 100vh;
   height: 100px;
   width: 300px;
   animation: upperbox 8s infinite; 
-  margin-top: -10px;
+  margin-top: -15px;
   
 }
 .boxtwo{
@@ -184,7 +184,7 @@ min-height: 100vh;
   position: fixed;
   transform: translate(-470px,-150px);
   animation: wordone 8s infinite;
-  z-index: 1000;
+  z-index: -100;
 }
 .studytable2{
   font-size: 150px;
@@ -193,7 +193,7 @@ min-height: 100vh;
   position: fixed;
   transform: translate(-470px,-10px);
   animation: wordtwo 8s infinite;
-  z-index: 1000;
+  z-index: -1000;
 }
 .studytable3{
   font-size: 150px;
@@ -202,22 +202,25 @@ min-height: 100vh;
   position: fixed;
   transform: translate(-470px,130px);
   animation: wordthree 8s infinite;
-  z-index: 1000;
+  z-index: -1000;
 }
 @keyframes wordone{
   0%{
     transform: translate(-470px,-150px);
+   
   }
   30%{
     transform: translate(-470px,-150px);
+     z-index: 1000;
   }
   35%{
     transform: translate(-200px,-150px);
+     z-index: 1000;
     
   }
   65%{
     transform: translate(-200px,-150px);
-    
+     z-index: 1000;
   }
   75%{
     transform: translate(-470px,-150px);
@@ -232,14 +235,17 @@ min-height: 100vh;
   }
   30%{
     transform: translate(-470px,-10px);
+     z-index: 1000;
     
   }
   37%{
     transform: translate(-140px,-10px);
+     z-index: 1000;
     
   }
   65%{
     transform: translate(-140px,-10px);
+     z-index: 1000;
     
   }
   75%{
@@ -255,13 +261,16 @@ min-height: 100vh;
   }
   30%{
     transform: translate(-470px,130px);
+     z-index: 1000;
   }
   39%{
     transform: translate(-150px,130px);
+     z-index: 1000;
     
   }
   65%{
     transform: translate(-150px,130px);
+     z-index: 1000;
     
   }
   75%{
@@ -270,4 +279,22 @@ min-height: 100vh;
   100%{
     transform: translate(-470px,130px);
   }
+}
+@media screen and (max-width: 1600px) {
+  .home{
+    
+  }
+  
+}
+@media screen and (max-width: 1300px) {
+  .home{
+    transform: scale(0.8);
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .home{
+    transform: scale(0.6);
+  }
+  
 }
