@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+    text-align: center;
 }
 .coloumn:hover{
     background-color: white;
@@ -38,7 +39,7 @@
     margin-bottom: 10vh;
     
 }
-@media screen and (max-width : 1200px){
+@media screen and (max-width : 1300px){
     .coloumn{
         font-size: 13px;
         align-items: center;
