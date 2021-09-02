@@ -34,7 +34,7 @@ export default function Meets() {
         c4: "POE T2",
         l4: "",
         c5: "Fluid Mech T2",
-        l5: "",
+        l5: "https://meet.google.com/ffn-mgit-fjn?hs=224",
         c6: "",
         l6: "",
         c7: "Thermo T1",
