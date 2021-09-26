@@ -51,6 +51,13 @@ export default function RecLect() {
         section: "L1",
         link: "https://cms.bits-hyderabad.ac.in/mod/forum/discuss.php?d=26501",
       },
+      {
+         key:8,
+        name: "Mech Of Solids",
+        id: "Pavan Kumar",
+        section: "L1",
+        link: "https://classroom.google.com/u/0/c/MzgxNTYxODY4ODk2",
+      },
     ];
 
     return (
