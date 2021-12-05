@@ -58,6 +58,13 @@ export default function RecLect() {
         section: "L1",
         link: "https://classroom.google.com/u/0/c/MzgxNTYxODY4ODk2",
       },
+      {
+        key: 9,
+        name: "Maths-tuts",
+        id: "No clue man",
+        section: "meh",
+        link:"https://drive.google.com/drive/u/1/folders/13SdZz-KY69xFWqrqzyNd7ckB7bPqHvVq"
+      }
     ];
 
     return (
