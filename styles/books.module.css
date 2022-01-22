@@ -1,0 +1,73 @@
+.back{
+    width: 7vw;
+    text-align: center;
+    position: fixed;
+    top: 5vh;
+    left: 22vw;
+    height: max-content;
+    padding: 10px;
+    font-size: 1.5em;
+    background: rgb(19, 19, 19);
+    border-radius:10px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+.header{
+    color: white;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    position: fixed;
+    top: 5vh;
+    left: 55vw;
+}
+.null {
+
+display: none;   
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+}
+.btn{
+
+    width: 20vw;
+    height: 30vh;
+    border-radius: 15px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    transition: 0.2s;
+    text-align: center;
+   color: black;
+   font-size: 3em;
+       font-family: 'Bebas Neue', cursive;
+
+
+   
+}
+.btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin-top: 10vh;
+}
