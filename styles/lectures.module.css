@@ -64,9 +64,10 @@ display: none;
 }
 .cards{
     display: flex;
+    min-height: 100vh;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:center;
     flex-wrap: wrap;
     width: 75vw;
     margin-top: 10vh;
