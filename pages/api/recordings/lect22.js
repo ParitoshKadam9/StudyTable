@@ -65,5 +65,5 @@ const reclectures = [
 ];
 
 export default function handler(req, res) {
-  res.status(200).json(tabledata);
+  res.status(200).json(reclectures);
 }
