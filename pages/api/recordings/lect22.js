@@ -27,6 +27,13 @@ const reclectures = [
     section: "L1",
     link: "https://docs.google.com/document/d/1ZyjTO42dVQMguMqBr9kCCm0CFVEYb_mAcXb7iH2jAjQ/edit",
   },
+  {
+    key: 5,
+    name: "NNFL",
+    id: "2021",
+    section: "L1",
+    link: "https://drive.google.com/drive/u/1/folders/1n2jBKFpzoo1haGBHxuDLUOUidLPK-w37",
+  },
   //   {
   //     key: 5,
   //     name: "EPS",
