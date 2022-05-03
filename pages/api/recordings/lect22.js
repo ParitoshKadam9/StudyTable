@@ -28,19 +28,19 @@ const reclectures = [
     link: "https://docs.google.com/document/d/1ZyjTO42dVQMguMqBr9kCCm0CFVEYb_mAcXb7iH2jAjQ/edit",
   },
   {
-    key: 5,
+    key: 6,
     name: "NNFL",
     id: "2021",
     section: "L1",
     link: "https://drive.google.com/drive/u/1/folders/1n2jBKFpzoo1haGBHxuDLUOUidLPK-w37",
   },
-  //   {
-  //     key: 5,
-  //     name: "EPS",
-  //     id: "Santosh sir",
-  //     section: "L1",
-  //     link: "https://drive.google.com/drive/folders/1UtyZzVGTb9uFCXflvVKW6sAJHj9Tp41l",
-  //   },
+    {
+      key: 5,
+      name: "Manuf",
+      id: " N Suresh Reddy",
+      section: "L1",
+      link: "https://drive.google.com/drive/folders/1aR1NgIwp6CtZRxn5SYz2N49tekdkqdGz",
+    },
   //   {
   //     key: 6,
   //     name: "Thermodynamics",
