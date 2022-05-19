@@ -34,13 +34,20 @@ const reclectures = [
     section: "L1",
     link: "https://drive.google.com/drive/u/1/folders/1n2jBKFpzoo1haGBHxuDLUOUidLPK-w37",
   },
-    {
-      key: 5,
-      name: "Manuf",
-      id: " N Suresh Reddy",
-      section: "L1",
-      link: "https://drive.google.com/drive/folders/1aR1NgIwp6CtZRxn5SYz2N49tekdkqdGz",
-    },
+  {
+    key: 5,
+    name: "Manuf",
+    id: " N Suresh Reddy",
+    section: "L1",
+    link: "https://drive.google.com/drive/folders/1aR1NgIwp6CtZRxn5SYz2N49tekdkqdGz",
+  },
+  {
+    key: 6,
+    name: "Adv Com Eng",
+    id: "Pranesh Madarchod",
+    section: "L1",
+    link: "https://drive.google.com/drive/folders/1GfaryNneO9NR7kgt69yho34b887uWldL",
+  },
   //   {
   //     key: 6,
   //     name: "Thermodynamics",
