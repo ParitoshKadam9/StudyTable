@@ -17,6 +17,10 @@ export default function RecLect() {
         id: 2,
         name: "2-2 lectures",
       },
+      {
+        id: 3,
+        name: "Summer 2022",
+      },
     ];
 
     const handleBack = () => {
@@ -32,6 +36,13 @@ export default function RecLect() {
         console.log("test");
       } else if (id == 2) {
         const response = await fetch("/api/recordings/lect22");
+        const data2 = await response.json();
+        setBtn(false);
+        setData(data2);
+        console.log("test");
+      }
+       else if (id == 3) {
+        const response = await fetch("/api/recordings/summer1");
         const data2 = await response.json();
         setBtn(false);
         setData(data2);
