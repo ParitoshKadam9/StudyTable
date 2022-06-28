@@ -41,6 +41,13 @@ const summerlinks = [
     section: "art",
     link: "https://www.youtube.com/c/SK8215/playlists",
   },
+  {
+    key: 7,
+    name: "img processing and CV",
+    id: "EEE",
+    section: "Deep Learning",
+    link: "https://www.youtube.com/playlist?list=PLcXJymqaE9PMexHWGgXJVINpr6ajy5vuz",
+  },
 ];
 
 export default function handler(req, res) {
