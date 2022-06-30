@@ -48,6 +48,13 @@ const summerlinks = [
     section: "Deep Learning",
     link: "https://www.youtube.com/playlist?list=PLcXJymqaE9PMexHWGgXJVINpr6ajy5vuz",
   },
+  {
+    key: 8,
+    name: "Maths for CS",
+    id: "for DSA",
+    section: "DM",
+    link: "https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B",
+  },
 ];
 
 export default function handler(req, res) {
