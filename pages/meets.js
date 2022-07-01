@@ -15,6 +15,10 @@ export default function Meets() {
       id: 2,
       name: "2-2",
     },
+    {
+      id: 3,
+      name: "Summer '22",
+    },
     
   ];
 
@@ -32,6 +36,13 @@ export default function Meets() {
     }
     else if (id == 2) {
       const response = await fetch("/api/lectures/sem22");
+      const data2 = await response.json();
+      setBtn(false);
+      setData(data2);
+      console.log("test");
+    }
+    else if (id == 3) {
+      const response = await fetch("/api/lectures/summer22");
       const data2 = await response.json();
       setBtn(false);
       setData(data2);
