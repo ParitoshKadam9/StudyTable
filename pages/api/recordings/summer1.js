@@ -55,6 +55,20 @@ const summerlinks = [
     section: "DM",
     link: "https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B",
   },
+  {
+    key: 9,
+    name: "Fluid Mech 1",
+    id: "Backlog",
+    section: "Mechanical ",
+    link: "https://www.youtube.com/playlist?list=PLZOZfX_TaWAGocs2k5QmTL44OKOl7rn34",
+  },
+  {
+    key: 10,
+    name: "Fluid Mech 2",
+    id: "Backlog",
+    section: "Mechanical ",
+    link: "https://www.youtube.com/playlist?list=PLZOZfX_TaWAE7uM59dIBr-rH73WTJCcp_",
+  },
 ];
 
 export default function handler(req, res) {
